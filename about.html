@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"></script>
+
+    <!--  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="assets/fontawesome/js/all.min.js" />
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/bootstrap/js/bootstrap.min.js" />
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css" />
+
+    <link
+      rel="stylesheet"
+      href="assets/OwlCarousel/docs/assets/owlcarousel/assets/owl.carousel.min.css" />
+    <link
+      rel="stylesheet"
+      href="assets/OwlCarousel/docs/assets/owlcarousel/assets/owl.theme.default.min.css" />
+
+    <script src="assets/OwlCarousel/docs/assets/vendors/jquery.min.js"></script>
+    <script src="assets/OwlCarousel/docs/assets/owlcarousel/owl.carousel.js"></script>
+
+    <title>Efiko || Empowering Youths Globally</title>
+  </head>
+  <body>
+    <header class="efk-header--variant">
+      <nav class="navbar navbar-expand-xl fixed-to efk-variant-nav">
+        <div class="d-flex w-100 mx-lg-5 px-lg-5 mx-sm-4 px-sm-4 mx-3 px-3">
+          <a class="navbar-brand efk-nav-brand--variant" href="index.html"
+            ><img
+              src="assets/images/mentors/logo-variant.png"
+              alt=""
+              class="efk-brand--variant"
+          /></a>
+
+          <button
+            class="efk-btn efk-medium-toggler ms-auto"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasTop"
+            aria-controls="offcanvasTop">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <button
+            class="efk-btn efk-mobile-toggler ms-auto"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasRight"
+            aria-controls="offcanvasRight">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div
+            class="collapse navbar-collapse d-xl-block d-none"
+            id="navbarTogglerDemo02">
+            <ul class="navbar-nav efk-navlist ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link efk-navlink--variant active"
+                  aria-current="page"
+                  href="about.html"
+                  >About Efiko</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link efk-navlink--variant" href="#program"
+                  >Program</a
+                >
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link efk-navlink--variant" href="#faq">FAQ</a>
+              </li> -->
+              <li class="nav-item">
+                <a class="nav-link efk-navlink--variant" href="#more"
+                  >Journey</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link efk-navlink--variant" href="#join"
+                  >Join Us</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link efk-navlink--variant" href="#">Blog</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link efk-navlink--variant" href="#contact">Contact Us</a>
+              </li> -->
+
+              <button class="efk-btn efk-btn-secondary ms-2">
+                <a href="#donate" class="efk-btn-link"
+                  >Donate<i class="fa fa-heart efk-heart ms-2"></i
+                ></a>
+              </button>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <nav class="efk-medium-container">
+        <div
+          class="offcanvas offcanvas-top efk-medium-wrap"
+          data-bs-scroll="true"
+          tabindex="-1"
+          id="offcanvasTop"
+          aria-labelledby="offcanvasTopLabel">
+          <div class="offcanvas-body efk-medium-nav">
+            <button
+              type="button"
+              class="btn-close position-absolute top-0 start-50 mt-1"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+            <ul class="navbar-nav efk-navlist ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link efk-navlink active"
+                  aria-current="page"
+                  href="about.html"
+                  >About Efiko</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link efk-navlink" href="#program">Program</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link efk-navlink" href="#faq">FAQ</a>
+              </li> -->
+              <li class="nav-item">
+                <a class="nav-link efk-navlink" href="#more">Journey</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link efk-navlink" href="#join">Join Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link efk-navlink" href="#">Blog</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link efk-navlink" href="#contact">Contact Us</a>
+              </li> -->
+
+              <button class="efk-btn efk-btn-secondary ms-2">
+                <a href="#donate" class="efk-btn-link"
+                  >Donate<i class="fa fa-heart efk-heart ms-2"></i
+                ></a>
+              </button>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <nav class="efk-mobile-container">
+        <div
+          class="offcanvas offcanvas-end efk-mobile-wrap"
+          data-bs-scroll="true"
+          tabindex="-1"
+          id="offcanvasRight"
+          aria-labelledby="offcanvasRightLabel">
+          <div class="offcanvas-body efk-mobile-nav">
+            <button
+              type="button"
+              class="btn-close position-absolute top-0 start-50 mt-1"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+            <ul class="navbar-nav efk-navlist ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link efk-navlink active"
+                  aria-current="page"
+                  href="about.html"
+                  >About Efiko</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link efk-navlink" href="#program">Program</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link efk-navlink" href="#faq">FAQ</a>
+              </li> -->
+              <li class="nav-item">
+                <a class="nav-link efk-navlink" href="#more">Journey</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link efk-navlink" href="#join">Join Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link efk-navlink" href="#">Blog</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link efk-navlink" href="#contact">Contact Us</a>
+              </li> -->
+
+              <button class="efk-btn efk-btn-secondary ms-2">
+                <a href="#donate" class="efk-btn-link"
+                  >Donate<i class="fa fa-heart efk-heart ms-2"></i
+                ></a>
+              </button>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="efk-ft-fix">
+      <div class="efk-container">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="text-center">
+              <h3 class="efk-heading-sm">
+                EFIKO Lab's Unique Mentorship Journey
+              </h3>
+              <h1 class="efk-heading">Empowering Young Minds Globally</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="">
+        <div class="efk-abouthero-wrap d-flex flex-column">
+          <img
+            src="assets/images/about/about-hero.png"
+            class="efk-hero-img"
+            alt="" />
+          <div class="efk-abttext-container">
+            <article class="">
+              <h1 class="efk-heading-sm">About EFIKO</h1>
+              <div class="efk-body">
+                <p>
+                  At EFIKO, we're passionate about unlocking the potential of
+                  young adults worldwide through our innovative EFIKO Lab
+                  program. Our mission is to revolutionize mentorship for
+                  individuals over 18, starting from Africa and expanding
+                  globally. EFIKO Lab isn't just about academic or career
+                  guidance; it's a holistic approach to mentorship, encompassing
+                  social and personal development.
+                </p>
+                <p>
+                  We believe in the power of connection. EFIKO Lab expertly
+                  bridges the gap between motivated youths and seasoned
+                  professionals across various industries, offering a unique
+                  platform for world-class, personalized mentorship. This global
+                  network of mentors are dedicated to making a lasting, positive
+                  impact in the lives of our mentees.
+                </p>
+                <span class="d-sm-inline d-none">
+                  <p>
+                    Our partnership with JAVAT, a cutting-edge service
+                    collaboration startup, enhances this experience. Leveraging
+                    their JAVAT365 app, akin to renowned platforms like MS Teams
+                    and Slack, we facilitate seamless communication and
+                    collaboration between mentors and mentees. For a nominal fee
+                    of just $3 USD per month, mentors can access JAVAT 365,
+                    creating specialized channels for their expertise, setting
+                    office hours, and sharing valuable content. Meanwhile,
+                    mentees enjoy free subscriber access, following channels
+                    that resonate with their interests and goals.
+                  </p>
+
+                  <p>
+                    EFIKO is more than a mentorship platform, it's a
+                    community-driven initiative. While we are not a certified
+                    professional counselling organization, nor do we certify our
+                    mentors, our focus remains stead fast on enriching lives
+                    through mentor-mentee connections. We also welcome the
+                    generosity of donors, offering them the opportunity to
+                    contribute to this transformative journey. Donations not
+                    only fuel our mission but also provide tax credit benefits
+                    to our benefactors.
+                  </p></span
+                >
+                <a
+                  class="efk-btn efk-btn-link efk-btn-secondary text-decoration-none d-inline d-sm-none"
+                  data-bs-toggle="collapse"
+                  href="#collapseExample"
+                  role="button"
+                  aria-expanded="false"
+                  aria-controls="collapseExample">
+                  Read more
+                </a>
+                <div class="collapse efk-body" id="collapseExample">
+                  <p>
+                    Our partnership with JAVAT, a cutting-edge service
+                    collaboration startup, enhances this experience. Leveraging
+                    their JAVAT365 app, akin to renowned platforms like MS Teams
+                    and Slack, we facilitate seamless communication and
+                    collaboration between mentors and mentees. For a nominal fee
+                    of just $3 USD per month, mentors can access JAVAT 365,
+                    creating specialized channels for their expertise, setting
+                    office hours, and sharing valuable content. Meanwhile,
+                    mentees enjoy free subscriber access, following channels
+                    that resonate with their interests and goals.
+                  </p>
+
+                  <p>
+                    EFIKO is more than a mentorship platform, it's a
+                    community-driven initiative. While we are not a certified
+                    professional counselling organization, nor do we certify our
+                    mentors, our focus remains stead fast on enriching lives
+                    through mentor-mentee connections. We also welcome the
+                    generosity of donors, offering them the opportunity to
+                    contribute to this transformative journey. Donations not
+                    only fuel our mission but also provide tax credit benefits
+                    to our benefactors.
+                  </p>
+                </div>
+
+                <div class="">
+                  <div
+                    class="d-flex justify-content-between align-items-center py-2 row">
+                    <div class="efk-abouticon-wrap col-md-2 col-12">
+                      <img src="assets/images/icons/twinkles.png" alt="" />
+                    </div>
+                    <div class="col-md-9 col-12">
+                      <article>
+                        <h1 class="efk-heading-sm">Mission</h1>
+                        <p>
+                          EFIKO, a pioneering non-profit, revolutionizes global
+                          youth mentorship through EFIKOLab. Our mission is to
+                          empower individuals over 18, starting in Africa, by
+                          connecting them with diverse global mentors. Focused
+                          on holistic development,EFIKO Lab transcends
+                          traditional education and career guidance, embracing
+                          social life mentorship. In partnership with JAVAT, we
+                          leverage cutting-edge collaboration tools for seamless
+                          mentor-mentee interaction. Affordable, accessible, and
+                          impactful, EFIKO is reshaping futures, one connection
+                          at atime.
+                        </p>
+                      </article>
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between align-items-center px-0 mx-0 row">
+                    <div class="efk-abouticon-wrap col-md-2 col-12">
+                      <img src="assets/images/icons/light.png" alt="" />
+                    </div>
+                    <div class="col-md-9 col-12">
+                      <article>
+                        <h1 class="efk-heading-sm">Vision</h1>
+                        <p>
+                          Envisioning a world where every young adult has access
+                          to transformative mentorship, EFIKO aims to be the
+                          global nexus for mentor-mentee relationships. Our
+                          vision is to create a community where learning,
+                          growth, and personal development are accessible to
+                          all, transcending geographical and social barriers.
+                          Through EFIKO Lab, we aspire to foster a global
+                          network of empowered youths, guided by experienced
+                          mentors, ready to make a positive impact in their
+                          communities and beyond.
+                        </p>
+                      </article>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+      <div class="efk-container">
+        <div class="row">
+          <div class="col-sm-7 col-12">
+            <div class="about-img-wrap">
+              <img
+                src="assets/images/about/about-left.png"
+                width="100%"
+                alt="" />
+            </div>
+          </div>
+          <div class="col-sm-5 d-sm-block d-none">
+            <div class="about-img-wrap">
+              <img src="assets/images/about/about-right.png" width="100%" />
+            </div>
+          </div>
+        </div>
+        <div class="d-flex flex-column align-items-center pt-5 gap-2 mt-4z">
+          <p class="efk-heading-sm text-center mx-md-auto efk-join">
+            Join us at EFIKO Lab, where we're not just changing lives,we're
+            nurturing the next generation of global leaders and innovators.
+          </p>
+          <div class="d-flex justify-content-center gap-3">
+            <button class="efk-btn efk-btn-primary">
+              <a href="#" class="efk-btn-link">Join the revolution</a>
+            </button>
+            <button class="efk-btn efk-btn-secondary ms-2">
+              <a href="#" class="efk-btn-link"
+                >Donate<i class="fa fa-heart efk-heart ms-2"></i
+              ></a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="efk-footer">
+      <div class="efk-container">
+        <div
+          class="row align-items-center mb-md-5 mb-2 justify-content-between gap-sm-0 gap-5">
+          <div class="col-sm-5 col-12 align-self-start">
+            <img
+              src="assets/images/footer-logo.png"
+              class="footer-logo"
+              alt="" />
+          </div>
+          <div class="col-md-5 offset-md-2 col-sm-6 col-12">
+            <div class="d-flex gap-md-3 gap-sm-0">
+              <a href="index.html" class="efk-navlink">Home</a>
+              <a href="about.html" class="efk-navlink">About</a>
+              <a href="#faq" class="efk-navlink">FAQ</a>
+              <a href="#" class="efk-navlink">Blog</a>
+            </div>
+          </div>
+        </div>
+        <div class="row align-items-center mt-md-5 mt-0 gap-md-0 gap-3">
+          <div class="col-md-5 col-12">
+            <p class="efk-list mt-5">
+              Efiko Inc is a nonprofit organization whose mission is to empower
+              disadvantaged African youth by leveraging technology to provide
+              best-in-class, educational mentorship programs.
+            </p>
+          </div>
+          <div class="col-md-5 offset-md-2 col-12">
+            <div class="">
+              <h3 class="efk-list">SUPPORT</h3>
+              <div class="d-flex justify-content-start">
+                <div class="">
+                  <img
+                    src="assets/images//partners/partner-1.png"
+                    alt=""
+                    class="efk-partners" />
+                </div>
+                <div class="">
+                  <img
+                    src="assets/images//partners/partner-2.png"
+                    alt=""
+                    class="efk-partners" />
+                </div>
+                <div class="">
+                  <img
+                    src="assets/images//partners/partner-3.png"
+                    class="efk-partners"
+                    alt="" />
+                </div>
+                <div class="">
+                  <img
+                    src="assets/images//partners/partner-4.png"
+                    class="efk-partners"
+                    alt="" />
+                </div>
+                <div class="">
+                  <img
+                    src="assets/images//partners/partner-5.png"
+                    class="efk-partners"
+                    alt="" />
+                </div>
+                <div class="">
+                  <img
+                    src="assets/images//partners/partner-6.png"
+                    class="efk-partners"
+                    alt="" />
+                </div>
+                <div class="">
+                  <img
+                    src="assets/images//partners/partner-7.png"
+                    class="efk-partners"
+                    alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row align-items-center flex-sm-row flex-column">
+          <hr class="text-white my-3" />
+          <div class="col-md-7 col-sm-9">
+            <div class="row flex-md-row flex-sm-column gap-md-0 gap-3">
+              <div class="col-md-6 col-sm-12">
+                <a class="efk-footer-brand">
+                  ©EFIKO Inc. 2022 All rights reserved
+                </a>
+              </div>
+              <div class="col-md-3 col-sm-12">
+                <a href="#" class="efk-footer-brand">Privacy Policy</a>
+              </div>
+              <div class="col-md-3 col-sm-12">
+                <a href="#" class="efk-footer-brand">Contact Us</a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-md-5 col-sm-3 d-flex justify-content-end align-items-center">
+            <a href=""><span class="fab fa-facebook text-white fs-2"></span></a>
+            <a href=""
+              ><span class="fab fa-instagram text-white fs-2 ms-3"></span
+            ></a>
+            <a href="">
+              <img
+                src="assets/images/twitter-x.png"
+                class="efk-instagram"
+                alt=""
+            /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
