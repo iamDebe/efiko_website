@@ -1159,31 +1159,26 @@
       </div>
 
       <div class="efk-container efk-container--special" id="contact">
-        <div class="row justify-content-between row-gap-md-0 row-gap-3">
-          <div class="col-xl-4 col-md-5 col-10">
+        <div class="row justify-content-between row-gap-md-0 row-gap-3 align-items-center">
+          <!-- <div class="col-xl-4 col-md-5 col-10">
             <h1 class="efk-heading-sm">Get in touch with us</h1>
+            
             <p class="efk-body">
-              Give us a call or drop by anytime, we endeavour to answer all
-              enquiries within 24 hours on business days.
+             Direct enquiry form to <span class="efk-body--clr"> <a href="mailto:info@efikolab.org" class="efk-body--clr"> info@efikolab.org </a></span>  
+
             </p>
-            <div class="d-flex flex-column gap-4">
-              <div>
-                <i class="fa fa-location-dot"></i>
-                <span class="efk-faq-title"
-                  >8735 DUNWOODY PLACE #4820 ATLANTA, GA 30350, USA</span
-                >
-              </div>
-              <div>
-                <i class="fa fa-phone"></i>
-                <span class="efk-faq-title">+1 770-280-1299</span>
-              </div>
-              <div>
-                <i class="fa fa-mail-bulk"></i>
-                <span class="efk-faq-title">info@javat365.com</span>
-              </div>
+           
+          </div> -->
+          <div class="col-xl-6 mx-auto col-md-6 offset-md-1 col-12">
+            <div class="text-center">
+
+              <h1 class="efk-heading-sm">Get in touch with us</h1>
+              
+              <p class="efk-body">
+               Direct enquiry form to <span class="efk-body--clr"> <a href="mailto:info@efikolab.org" class="efk-body--clr"> info@efikolab.org </a></span>  
+  
+              </p>
             </div>
-          </div>
-          <div class="col-xl-6 offset-xl-2 col-md-6 offset-md-1 col-12">
             <div class="efk-contact-wrapper">
               <form action="">
                 <div class="mb-3">
@@ -1195,6 +1190,7 @@
                       type="text"
                       placeholder="Brookly Simons"
                       name="name"
+                      required
                       class="efk-input w-100" />
                   </div>
                 </div>
@@ -1208,8 +1204,10 @@
                       type="email"
                       placeholder="example@gmail.com"
                       name="name"
+                      required
                       class="efk-input w-100" />
                   </div>
+                 
                 </div>
                 <div class="mb-3">
                   <label for="name" class="efk-frm-label"
@@ -1220,6 +1218,7 @@
                       type="email"
                       placeholder="Application Enquiry"
                       name="name"
+                      required
                       class="efk-input w-100" />
                   </div>
                 </div>
@@ -1228,12 +1227,18 @@
                     >Your Message <span class="text-danger fs-3">*</span></label
                   >
                   <div>
+                    <span class="efk-body">
+                      <i class="fa fa-info-circle efk-check text-danger"></i> <small>Character limit is 100</small>
+
+                    </span>
                     <textarea
                       type="textarea"
                       placeholder="Hello! I would love to know more about Javat"
                       name="Message"
-                      class="efk-input py-0"
-                      rows="1"></textarea>
+                      class="efk-input--textarea py-0"
+                      required
+                      maxlength="100"
+                      rows="3"></textarea>
                   </div>
                 </div>
                 <button class="efk-btn efk-btn-primary efk-btn-link px-4">
@@ -1253,18 +1258,18 @@
                 Stay Connected
               </h1>
               <div class="efk-list my-3">
-                Joining our channel means
-                <ul class="py-0 my-0">
+              Joining our channel means Staying up to date with  our latest news
+
+                <!-- <ul class="py-0 my-0">
                   <li class="">Access to latest giveaways</li>
                   <li class="">Staying up to date with our latest news</li>
                   <li class="">Tips and Tricks to boost your revenue</li>
-                </ul>
-                and so much more!
+                </ul> -->
               </div>
               <div>
                 <button
                   class="efk-btn efk-btn-primary efk-btn-link px-4 mt-md-4 mt-2">
-                  Follow on all Javat 365
+                  Follow on Javat 365
                 </button>
                 <p class="efk-list efk-nb mt-2">
                   Note: A JAVAT 365 subscriber account would be created for you.
@@ -1322,10 +1327,13 @@
         <div
           class="row align-items-center mb-md-5 mb-2 justify-content-between gap-sm-0 gap-5">
           <div class="col-sm-5 col-12 align-self-start">
-            <img
-              src="assets/images/footer-logo.png"
-              class="footer-logo"
-              alt="" />
+            <a href="index.html">
+
+              <img
+                src="assets/images/footer-logo.png"
+                class="footer-logo"
+                alt="" />
+            </a>
           </div>
           <div class="col-md-5 offset-md-2 col-sm-6 col-12">
             <div class="d-flex gap-md-3 gap-sm-0 ">
