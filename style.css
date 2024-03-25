@@ -448,9 +448,15 @@ header nav {
 .efk-ment-card {
   min-height: 430px;
   padding: 0rem !important;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.efk-ment-card:hover {
+  box-shadow: var(--efk-bs-lg-grey);
 }
 .efk-ment-card--body {
   height: 55%;
+  padding-inline: 1rem;
 }
 .efk-ment-card--body p {
   height: 55%;
